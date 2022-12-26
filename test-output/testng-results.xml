@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="35199" started-at="2022-12-25T16:55:57 IST" finished-at="2022-12-25T16:56:32 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="35199" started-at="2022-12-25T16:55:57 IST" finished-at="2022-12-25T16:56:32 IST">
+      <class name="com.abc.testcases.LoginPageTestCases">
+        <test-method status="PASS" signature="generatereport()[pri:0, instance:com.abc.testcases.LoginPageTestCases@6a1aab78]" name="generatereport" is-config="true" duration-ms="14975" started-at="2022-12-25T16:55:57 IST" finished-at="2022-12-25T16:56:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generatereport -->
+        <test-method status="PASS" signature="TC2()[pri:0, instance:com.abc.testcases.LoginPageTestCases@6a1aab78]" name="TC2" duration-ms="5395" started-at="2022-12-25T16:56:12 IST" description="Verify that user should be able to login with invalid data" finished-at="2022-12-25T16:56:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2 -->
+        <test-method status="PASS" signature="TC1()[pri:1, instance:com.abc.testcases.LoginPageTestCases@6a1aab78]" name="TC1" duration-ms="12663" started-at="2022-12-25T16:56:17 IST" description="Verify that user should be able to login with valid data" finished-at="2022-12-25T16:56:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+        <test-method status="PASS" signature="postcondition()[pri:0, instance:com.abc.testcases.LoginPageTestCases@6a1aab78]" name="postcondition" is-config="true" duration-ms="2121" started-at="2022-12-25T16:56:30 IST" finished-at="2022-12-25T16:56:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- com.abc.testcases.LoginPageTestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
