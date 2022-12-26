@@ -31,7 +31,7 @@ public class LoginPageTestCases {
 	
     ExtentTest extenttest = Reporter.reporter.createTest("Verify that user should be able to login with valid data")	;
 	LoginPage LoginPage = new LoginPage ();
-	LoginPage.LoginFunctionality("prajaktajachak2013@gmail.com", "Praj@1406");
+	LoginPage.LoginFunctionality("7350945841", "7350945841");
 	//validation
 	
 	Thread.sleep(2000);
@@ -50,7 +50,7 @@ public class LoginPageTestCases {
 		
 	Reporter.reporter.createTest("Verify that user should be able to login with invalid data")	;
 	LoginPage LoginPage = new LoginPage ();
-	LoginPage.LoginFunctionality("prajaktajachak2013@gmail.com", "12345678");	
+	LoginPage.LoginFunctionality("7350945841", "12345678");	
 	Thread.sleep(5000);
 
 	}
